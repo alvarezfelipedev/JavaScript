@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans");
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap");
+
+/* -------- NAV -------- */
+
+nav {
+  font-size: 1.1rem;
+}
+nav .logo {
+  width: 60px;
+  margin-left: 10px;
+}
+
+.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link {
+  color: rgb(54, 54, 54);
+}
+
+nav div ul li a {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+
+nav ul li a:hover {
+  color: black;
+  font-weight: 600;
+  /*Subrayado animado*/
+  background-size: 100% 2px;
+  color: #e59866;
+}
+
+/* -------- CONTACTO -------- */
+
+#section-contact{
+    color: rgb(0, 0, 0);
+}
+
+#section-contact #contacto {
+  margin: 2% 2%;
+  height: 85%;
+}
+#section-contact #contacto h1 {
+  font-size: 1.4rem;
+}
+#section-contact #contacto h2 {
+  font-size: 1.2rem;
+  margin: 2% 0%;
+}
+#section-contact #contacto .btn {
+  color: white;
+  background-color: #30caff;
+  margin: 0.5% 0;
+}
