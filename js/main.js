@@ -136,4 +136,4 @@ sessionStorage.setItem('departamentoNumero3', JSON.stringify(departamentoNumero3
 console.log(sessionStorage.getItem('departamentoNumero3'));
 
 // Uso de operadores avanzados:
-//let avisoDepartamentoNumero3 = departamentoNumero3.gato === true ? alert('Ofrecerle una renuncia') : alert('Todo ok')
+let avisoDepartamentoNumero3 = departamentoNumero3.gato === true ? alert('Ofrecerle una renuncia') : alert('Todo ok')
