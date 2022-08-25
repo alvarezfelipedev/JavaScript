@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon" />
+    <title>Venta</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- ICONOS FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+
+<body>
+    <!--- BARRA DE NAVEGACIÓN --->
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="../index.html">
+                    <img class="logo" src="../assets/img/logo.svg" alt="Logo de M&C Inmobiliaria">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="venta.html">Venta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="ubicacion.html">Ubicación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="sobreNosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="usuarios.html">Usuarios</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+
+    <!--- SECCION DE CONTACTO --->
+
+    <div class="d-flex flex-column">
+        <div class="p-1 d-flex justify-content-center encabezado-contacto">Telefóno: 1122875630 / Mail:
+            inmobiliaria@m&c.com</div>
+    </div>
+
+    <!--- VENTA -MAIN --->
+
+    <main id="venta">
+        <section>
+            <div class="contenedor">
+                <div id="contenedor-form" class="">
+                    <!-- FORM -->
+                    <div class="col-md-4 form">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Agregar Casa ​🏠</h4>
+                            </div>
+                            <form id="casa-form" class="card-body">
+                                <div class="form-group">
+                                    <input type="text" id="nombre" placeholder="Nombre" class="form-control" />
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="number" id="precioCasa" step="0.01"
+                                        placeholder="Precio de la Casa (USD)" class="form-control" />
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="number" id="precioExpensas" step="1"
+                                        placeholder="Precio de Expensas (ARS)" class="form-control" />
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="number" id="m2Totales" step="1" placeholder="Metros cuadrados totales"
+                                        class="form-control" />
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="number" id="m2Cubiertos" step="1"
+                                        placeholder="Metros cuadrados cubiertos" class="form-control" />
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="number" id="numeroDeAmbientes" step="1"
+                                        placeholder="Numero de ambientes" class="form-control" />
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="number" id="banios" step="1" placeholder="Cantidad de Baños"
+                                        class="form-control" />
+                                </div>
+
+                                <input id="btn-agregar" type="submit" value="Añadir"
+                                    class="btn btn-block" />
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Lista de Casa -->
+                    <div id="listaDeCasa" class="col-md-8"></div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!--- Paquete Bootstrap --->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+    <!--- Sweet Alert --->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!--- JavaScript --->
+    <script src="../js/main.js" type="module"></script>
+
+</body>

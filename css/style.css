@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans");
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap");
+
+/* -------- PROPIEDADES COMPARTIDAS -------- */
+
+.encabezado-contacto {
+  background-color: #f5cba7;
+  color: black;
+  font-size: 1.2rem;
+}
+
+/* -------- NAV -------- */
+nav {
+  font-size: 1.1rem;
+}
+
+nav .logo {
+  width: 170px;
+}
+
+.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link {
+  color: black;
+}
+
+nav div ul li a {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+
+nav ul li a:hover {
+  color: black;
+  font-weight: 600;
+  /*Subrayado animado*/
+  background-size: 100% 2px;
+  color: #e59866;
+}
+
+/* -------- HOVER -------- */
+.navbar .container-fluid .collapse .navbar-nav .nav-item a:hover {
+  font-weight: 500;
+  color: #e59866;
+  transition: 0.3s;
+}
+
+/* -------- Encabezado-Contacto -------- */
+.encabezado-contacto {
+  font-family: "Karla", sans-serif;
+}
+
+/* -------- VENTA -------- */
+
+#venta .card {
+  margin: 2% 2%;
+}
+
+.success,
+.error {
+  color: white;
+  padding: 5px;
+  margin: 5px 0 15px 0;
+}
+
+.success {
+  background: rgb(81, 255, 0);
+}
+
+.error {
+  background: rgb(255, 0, 0);
+}
+
+.form {
+  width: 25%;
+}
+
+.card #​nombre,
+.card #precioCasa,
+.card #precioExpensas,
+.card #m2Totales,
+.card #m2Cubiertos,
+.card #numeroDeAmbientes,
+.card #banios {
+  margin-top: 0.5em;
+}
+
+.btn-block {
+  background-color: #e59866;
+  border: none;
+  color: white;
+  margin-top: 1em;
+}
+
+/* Eliminacion de Step */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
