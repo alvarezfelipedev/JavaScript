@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans");
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap");
+
+/* -------- PROPIEDADES COMPARTIDAS -------- */
+
+.encabezado-contacto {
+  background-color: #FFC090;
+  color: black;
+  font-size: 1.2rem;
+}
+
+/* -------- NAV -------- */
+nav {
+  font-size: 1.1rem;
+}
+
+nav .logo {
+  width: 170px;
+}
+
+.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link {
+  color: black;
+}
+
+nav div ul li a {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+
+nav ul li a:hover {
+  color: black;
+  font-weight: 600;
+  /*Subrayado animado*/
+  background-size: 100% 2px;
+  color: #e59866;
+}
+
+/* -------- HOVER -------- */
+.navbar .container-fluid .collapse .navbar-nav .nav-item a:hover {
+  font-weight: 500;
+  color: #e59866;
+  transition: 0.3s;
+}
+
+/* -------- Encabezado-Contacto -------- */
+.encabezado-contacto {
+  font-family: "Karla", sans-serif;
+}
+
+/* -------- VENTA -------- */
+
+#venta .card {
+  margin: 2% 2%;
+}
+
+.success,
+.error {
+  color: white;
+  padding: 5px;
+  margin: 5px 0 15px 0;
+}
+
+.success {
+  background: rgb(81, 255, 0);
+}
+
+.error {
+  background: rgb(255, 0, 0);
+}
+
+.form {
+  width: 25%;
+}
+
+h4 {
+  color: white;
+}
+
+.card #​nombre,
+.card #precioCasa,
+.card #precioExpensas,
+.card #m2Totales,
+.card #m2Cubiertos,
+.card #numeroDeAmbientes,
+.card #banios {
+  margin-top: 0.5em;
+  border: none;
+}
+
+.card-header,
+#casa-form {
+  background-color: #34495E;
+}
+
+.btn-block {
+  background-color: #e59866;
+  border: none;
+  color: white;
+  margin-top: 1em;
+}
+
+/* Eliminacion de Step */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+
+/* -------- Clima -------- */
+
+.container {
+  font-family: "Karla", sans-serif;
+  background-color: #FFC090;
+  padding: 5px;
+  color: black;
+}
+
+.container .block {
+  padding: 20px;
+}
+
+.block:first-child {
+  color: black;
+}
+
+.info-bloque {
+  display: flex;
+}
+
+.info {
+  margin-left: 5px;
+}
+
+#location {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.cargando,
+.cargando:before,
+.cargando:after {
+  border-radius: 50%;
+}
+
+.cargando {
+  color: #B1D7B4;
+  font-size: 11px;
+  text-indent: -99999em;
+  position: relative;
+  width: 10em;
+  height: 10em;
+  box-shadow: inset 0 0 0 1em;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.cargando:before,
+.cargando:after {
+  position: absolute;
+  content: '';
+}
+
+.cargando:before {
+  width: 5.2em;
+  height: 10.2em;
+  background: #B1D7B4;
+  border-radius: 10.2em 0 0 10.2em;
+  top: -0.1em;
+  left: -0.1em;
+  -webkit-transform-origin: 5.1em 5.1em;
+  transform-origin: 5.1em 5.1em;
+  -webkit-animation: load2 2s infinite ease 1.5s;
+  animation: load2 2s infinite ease 1.5s;
+}
+
+.cargando:after {
+  width: 5.2em;
+  height: 10.2em;
+  background: #7FB77E;
+  border-radius: 0 10.2em 10.2em 0;
+  top: -0.1em;
+  left: 4.9em;
+  -webkit-transform-origin: 0.1em 5.1em;
+  transform-origin: 0.1em 5.1em;
+  -webkit-animation: load2 2s infinite ease;
+  animation: load2 2s infinite ease;
+}
+
+@-webkit-keyframes load2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes load2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/* -------- CONTACTO -------- */
+#main-contact #contacto {
+  margin: 2% 2%;
+  height: 85%;
+}
+
+#main-contact #contacto h1 {
+  font-size: 1.4rem;
+}
+
+#main-contact #contacto h2 {
+  font-size: 1.2rem;
+  margin: 2% 0%;
+}
+
+#main-contact #contacto .btn {
+  color: white;
+  background-color: #30caff;
+  margin: 1% 0;
+}
