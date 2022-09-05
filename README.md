@@ -7,7 +7,6 @@ Utilicé JS, en la sección de Venta, para que cuando el usuario por cada vez qu
 Si está completo le saldrá una alerta de Agregado correctamente, sino una de que no fue posible.
 Usé como API [OpenWeather](https://openweathermap.org/) ⛈️🌤️🌡️ para obtener los datos del clima de quien entre a la página.
 
-En la sección de Contacto, se encuentra un formulario de contacto, con la finalidad de qué cuando se recargue la pagina se conserven los datos enviados.
 
 Para el desarrollo del diseño apliqué HTML, CSS, y usé como framework, Bootstrap.
 
