@@ -25,9 +25,5 @@ A lo largo de su desarrollo en la parte de Javascript, apliqué:
 <br><br/>
 <hr></hr>
 
-### -- INMOBILIARIA - Javascript - Alvarez: ###
-
-[Repositorio](https://github.com/alvarezfelipedev/JavaScript-CoderHouse)
-
 
 Gracias por verlo! 🙏
