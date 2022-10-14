@@ -1,5 +1,6 @@
 <a name="readme-top"></a>
 
+
 <p align="right">
  <a href="https://www.linkedin.com/in/nfelipealvarez/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white" alt="LinkedIn"/>
@@ -9,11 +10,12 @@
   </a>
 </p>
 
+
 # Javascript
 
 
 ## Descripción:
-<p> Este proyecto es como se podría implementar el uso de Javascript para una Página de Inmobiliaria
+<p> Este proyecto es como se podría implementar el uso de Javascript para una Página de Inmobiliaria.
 Utilicé JS, en la sección de Venta, para que cuando el usuario por cada vez que complete el formulario, se agregue una Card, con los datos de la casa en venta.
 Si está completo, le saldrá una alerta de Agregado correctamente, si no una de que no fue posible. Además, se mostrará, en caso de que el usuario lo permita, los datos del clima de su ubicación. </p>
 
