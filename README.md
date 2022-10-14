@@ -1,14 +1,38 @@
-<h1 align="center"> # JavaScript-CoderHouse-Alvarez </h1>
+<a name="readme-top"></a>
 
-# Hola! Gracias por venir a ver el proyecto terminado.
+<p align="right">
+ <a href="https://www.linkedin.com/in/nfelipealvarez/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=LinkedIn&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://github.com/alvarezfelipedev" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white" alt="LinkedIn"/>
+  </a>
+</p>
 
-Como te comenté en el Readme de la Rama 'master', este proyecto es para una Inmobiliaria, donde el objetivo principal era el uso Javascript.
-Utilicé JS, en la sección de Venta, para que cuando el usuario por cada vez que complete el formulario, se agregue una card, con los datos de la casa en venta.
-Si está completo le saldrá una alerta de Agregado correctamente, sino una de que no fue posible.
-Usé como API [OpenWeather](https://openweathermap.org/) ⛈️🌤️🌡️ para obtener los datos del clima de quien entre a la página.
+# Javascript
 
 
-Para el desarrollo del diseño apliqué HTML, CSS, y usé como framework, Bootstrap.
+## Descripción:
+<p> Este proyecto es como se podría implementar el uso de Javascript para una Página de Inmobiliaria
+Utilicé JS, en la sección de Venta, para que cuando el usuario por cada vez que complete el formulario, se agregue una Card, con los datos de la casa en venta.
+Si está completo, le saldrá una alerta de Agregado correctamente, si no una de que no fue posible. Además, se mostrará, en caso de que el usuario lo permita, los datos del clima de su ubicación. </p>
+
+
+## API usada:
+
+Usé como API [OpenWeather](https://openweathermap.org/) ⛈️🌤️🌡️, para obtener los datos del clima de quien entre a la página.
+
+
+## Diseño y Estructura:
+
+<p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,bootstrap&perline=3" />
+  </a>
+</p>
+
+
+## Conceptos aplicados:
 
 A lo largo de su desarrollo en la parte de Javascript, apliqué:
   - Implementación de Variables 
@@ -22,8 +46,14 @@ A lo largo de su desarrollo en la parte de Javascript, apliqué:
   - Librerías
   - Promises & Async
   - AJAX y Fetch
-<br><br/>
-<hr></hr>
+  
+
+## Contacto 📧
+
+Alvarez Felipe - n.felipealvarez01@gmail.com
+
+
+<p align="right"><a href="#readme-top">Volver al principio ☝️</a></p>
 
 
 Gracias por verlo! 🙏
